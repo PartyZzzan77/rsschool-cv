@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+* {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+h3 {
+  color: rgb(103, 145, 208);
+}
+a {
+  padding-left: 20px;
+  text-decoration: none;
+}
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.aside {
+  width: 30%;
+  padding: 30px;
+  background-color: rgb(103, 144, 232);
+}
+.avatar {
+  text-align: center;
+  width: 200px;
+  border-radius: 50%;
+}
+.location,
+.email,
+.github,
+.telegram {
+  display: flex;
+  align-items: center;
+}
+.location__icon {
+  height: 50px;
+}
+.location__discription {
+  padding-left: 20px;
+}
+
+.email__icon {
+  width: 50px;
+}
+
+.github__icon {
+  width: 50px;
+}
+
+.telegram__icon {
+  width: 50px;
+}
+
+.main {
+  width: 70%;
+  padding: 30px;
+}
+
+.person__name {
+  color: rgb(52, 100, 172);
+}
+.person__name::after {
+  content: "___________";
+  font-size: 25px;
+  display: block;
+  color: rgb(138, 134, 134);
+}
+.person__position {
+  color: rgb(52, 100, 172);
+}
