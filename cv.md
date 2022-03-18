@@ -21,3 +21,9 @@ The beginning of my career as a front-end developer to increase my knowledge and
  * Good communication skills, team player;
  * Hard worker and responsible, able to learn quickly;
  * Diligent;
+### CODE EXAMPLES
+ ```
+ function sayHello(name=){
+   return `Hello ${name}!`
+ }
+ ```
